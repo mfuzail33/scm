@@ -1,0 +1,15 @@
+.low-stock-blinking {
+    animation: blinkBackground 2s infinite; 
+}
+
+@keyframes blinkBackground {
+    0% {
+        background-color: #ffcccc; 
+    }
+    50% {
+        background-color: transparent; 
+    }
+    100% {
+        background-color: #ffcccc;  
+    }
+}
